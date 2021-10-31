@@ -1,0 +1,96 @@
+I am in onStart method Test On Chrome
+2021-10-31 18:26:22 INFO  Log4JLogger:26 - ****************************** Starting test cases execution on TEST environment *****************************************
+Chrome browser will start!
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.bouncycastle.jcajce.provider.drbg.DRBG (file:/C:/Users/L/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.58/bcprov-jdk15on-1.58.jar) to constructor sun.security.provider.Sun()
+WARNING: Please consider reporting this to the maintainers of org.bouncycastle.jcajce.provider.drbg.DRBG
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 9944
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 31, 2021 6:26:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Before navigating to: 'https://www.amazon.com/'
+Navigated to:'https://www.amazon.com/'
+Oct 31, 2021 6:26:34 PM io.cucumber.core.runtime.FeaturePathFeatureSupplier get
+WARNING: No features found at classpath:/tests/cartFunc
+I am in onTestStart method addToCart start
+Trying to find Element By : By.id: nav-hamburger-menu
+Found Element By : By.id: nav-hamburger-menu
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> id: nav-hamburger-menu]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> id: nav-hamburger-menu]
+Trying to find Element By : By.xpath: //div[normalize-space()='Computers']
+Found Element By : By.xpath: //div[normalize-space()='Computers']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> xpath: //div[normalize-space()='Computers']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> xpath: //div[normalize-space()='Computers']]
+Trying to find Element By : By.xpath: //a[normalize-space()='Computers & Tablets']
+Found Element By : By.xpath: //a[normalize-space()='Computers & Tablets']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> xpath: //a[normalize-space()='Computers & Tablets']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> xpath: //a[normalize-space()='Computers & Tablets']]
+Trying to find Element By : By.xpath: //span[contains(text(),'Samsung Electronics')]
+Found Element By : By.xpath: //span[contains(text(),'Samsung Electronics')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> xpath: //span[contains(text(),'Samsung Electronics')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> xpath: //span[contains(text(),'Samsung Electronics')]]
+Trying to find Element By : By.xpath: //span[normalize-space()='Samsung Tab A7 Lite 8.7" Gray 32GB (SM-T220NZAAXAR)']
+Found Element By : By.xpath: //span[normalize-space()='Samsung Tab A7 Lite 8.7" Gray 32GB (SM-T220NZAAXAR)']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> xpath: //span[normalize-space()='Samsung Tab A7 Lite 8.7" Gray 32GB (SM-T220NZAAXAR)']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> xpath: //span[normalize-space()='Samsung Tab A7 Lite 8.7" Gray 32GB (SM-T220NZAAXAR)']]
+Trying to find Element By : By.id: add-to-cart-button
+Found Element By : By.id: add-to-cart-button
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> id: add-to-cart-button]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> id: add-to-cart-button]
+I am in onTestSuccess method addToCart succeed
+//---------------------------
+RUNNING IN ENVIRONMENT: https://www.amazon.com/
+STARTING TEST Class Name : tests.cartFunc.addToCartTest :::::: MethodName:addToCart.
+//---------------------------
+I am in onTestStart method validateAddToCartSuccessfully start
+Trying to find Element By : By.xpath: //span[@class='a-size-medium-plus a-color-base sw-atc-text a-text-bold']
+Found Element By : By.xpath: //span[@class='a-size-medium-plus a-color-base sw-atc-text a-text-bold']
+Trying to find Element By : By.id: nav-cart-count
+Found Element By : By.id: nav-cart-count
+I am in onTestSuccess method validateAddToCartSuccessfully succeed
+//---------------------------
+RUNNING IN ENVIRONMENT: https://www.amazon.com/
+STARTING TEST Class Name : tests.cartFunc.addToCartTest :::::: MethodName:validateAddToCartSuccessfully.
+//---------------------------
+I am in onTestStart method deleteProductCartSuccessfully start
+Trying to find Element By : By.id: nav-cart
+Found Element By : By.id: nav-cart
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> id: nav-cart]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> id: nav-cart]
+Trying to find Element By : By.cssSelector: input[value='Delete']
+Found Element By : By.cssSelector: input[value='Delete']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> css selector: input[value='Delete']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (9b29b72a41e04e0b86e667bd49ffbe22)] -> css selector: input[value='Delete']]
+Trying to find Element By : By.xpath: //div[@data-action='delete']//span[@class='a-size-base']
+Found Element By : By.xpath: //div[@data-action='delete']//span[@class='a-size-base']
+Trying to find Element By : By.id: nav-cart-count
+Found Element By : By.id: nav-cart-count
+I am in onTestSuccess method deleteProductCartSuccessfully succeed
+//---------------------------
+RUNNING IN ENVIRONMENT: https://www.amazon.com/
+STARTING TEST Class Name : tests.cartFunc.addToCartTest :::::: MethodName:deleteProductCartSuccessfully.
+//---------------------------
+???????????????????????????????????????????????????????????????????????????????
+? Share your Cucumber Report with your team at https://reports.cucumber.io    ?
+? Activate publishing with one of the following:                              ?
+?                                                                             ?
+? src/test/resources/cucumber.properties:    cucumber.publish.enabled=true    ?
+? Environment variable:                      CUCUMBER_PUBLISH_ENABLED=true    ?
+? JUnit:                                     @CucumberOptions(publish = true) ?
+?                                                                             ?
+? More information at https://reports.cucumber.io/docs/cucumber-jvm           ?
+?                                                                             ?
+? To disable this message, add cucumber.publish.quiet=true to                 ?
+? src/test/resources/cucumber.properties                                      ?
+???????????????????????????????????????????????????????????????????????????????
+I am in onFinish method Test On Chrome
+
+===============================================
+QA Automation Task Suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+

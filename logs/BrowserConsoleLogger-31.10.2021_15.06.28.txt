@@ -1,0 +1,9 @@
+Found error in logs: security - Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.
+Found error in logs: https://www.amazon.com/gp/product/sessionCacheUpdateHandler.html - Failed to load resource: the server responded with a status of 404 (Not Found)
+I am in onFinish method Test On Chrome
+
+===============================================
+QA Automation Task Suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+

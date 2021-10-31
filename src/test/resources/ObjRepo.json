@@ -1,0 +1,20 @@
+{
+  "homePage": {
+    "hamburgerMenu": "id;nav-hamburger-menu"
+  },
+  "menuItems": {
+    "computerTab": "xpath;//div[normalize-space()='Computers']",
+    "computerAndTabletsTab": "xpath;//a[normalize-space()='Computers & Tablets']",
+    "samsungElectronicsCheckBox": "xpath;//span[contains(text(),'Samsung Electronics')]",
+    "samsungProduct": "xpath;//span[normalize-space()='Samsung Tab A7 Lite 8.7\" Gray 32GB (SM-T220NZAAXAR)']",
+    "addToCartButton": "id;add-to-cart-button"
+  },
+  "cartPage": {
+    "successIcon": "xpath;//i[@class='a-icon a-icon-alert']",
+    "successText": "xpath;//span[@class='a-size-medium-plus a-color-base sw-atc-text a-text-bold']",
+    "cartCount": "id;nav-cart-count",
+    "cartContainer": "id;nav-cart",
+    "deleteButton": "css;input[value='Delete']",
+    "deleteText": "xpath;//div[@data-action='delete']//span[@class='a-size-base']"
+  }
+}
